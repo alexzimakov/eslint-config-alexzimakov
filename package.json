@@ -1,0 +1,29 @@
+{
+  "name": "@alexzimakov/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for my projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexzimakov/eslint-config-alexzimakov.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Alexander Zimakov",
+    "email": "alexzmdev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexzimakov/eslint-config-alexzimakov/issues"
+  },
+  "homepage": "https://github.com/alexzimakov/eslint-config-alexzimakov#readme",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
