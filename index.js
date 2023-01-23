@@ -59,7 +59,7 @@ module.exports = {
     'no-unused-vars': 'error',
     'no-use-before-define': ['error', { functions: false }],
     'no-useless-backreference': 'error',
-    'require-atomic-updates': 'error',
+    'require-atomic-updates': 'off',
     'use-isnan': 'error',
     'valid-typeof': 'error',
 
