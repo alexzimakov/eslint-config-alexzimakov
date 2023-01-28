@@ -76,7 +76,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'camelcase': 'off',
     'capitalized-comments': 'off',
-    'class-methods-use-this': 'error',
+    'class-methods-use-this': 'off',
     'complexity': 'off',
     'consistent-return': 'off',
     'consistent-this': 'error',
