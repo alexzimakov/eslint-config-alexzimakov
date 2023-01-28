@@ -78,7 +78,7 @@ module.exports = {
     'capitalized-comments': 'off',
     'class-methods-use-this': 'error',
     'complexity': 'off',
-    'consistent-return': 'error',
+    'consistent-return': 'off',
     'consistent-this': 'error',
     'curly': 'error',
     'default-case': ['error', { commentPattern: '^no default$' }],
