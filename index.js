@@ -57,7 +57,11 @@ module.exports = {
     'no-unsafe-optional-chaining': 'error',
     'no-unused-private-class-members': 'error',
     'no-unused-vars': 'error',
-    'no-use-before-define': ['error', { functions: false }],
+    'no-use-before-define': ['error', {
+      functions: false,
+      classes: false,
+      allowNamedExports: true,
+    }],
     'no-useless-backreference': 'error',
     'require-atomic-updates': 'off',
     'use-isnan': 'error',
