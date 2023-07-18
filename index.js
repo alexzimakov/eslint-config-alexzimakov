@@ -309,9 +309,12 @@ module.exports = {
       exceptAfterSingleLine: true,
     }],
     'max-len': ['error', {
-      code: 80,
+      code: 100,
       tabWidth: 2,
-      ignorePattern: '(="([^"]*)")|(^import .*)',
+      ignorePattern: [
+        '[^ ]+="[^"]*"',
+        '^import .*',
+      ].map((pattern) => `(${pattern})`).join('|'),
       ignoreComments: false,
       ignoreTrailingComments: true,
       ignoreUrls: true,
