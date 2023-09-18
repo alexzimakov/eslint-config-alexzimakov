@@ -198,7 +198,7 @@ module.exports = {
       allowNamedFunctions: true,
       allowUnboundThis: true,
     }],
-    'prefer-const': 'error',
+    'prefer-const': ['error', { destructuring: 'all' }],
     'prefer-destructuring': 'off',
     'prefer-exponentiation-operator': 'off',
     'prefer-named-capture-group': 'off',
