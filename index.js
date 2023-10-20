@@ -15,7 +15,7 @@ module.exports = {
     'no-cond-assign': 'error',
     'no-const-assign': 'error',
     'no-constant-binary-expression': 'error',
-    'no-constant-condition': 'error',
+    'no-constant-condition': ['error', { checkLoops: false }],
     'no-constructor-return': 'error',
     'no-control-regex': 'error',
     'no-debugger': 'error',
