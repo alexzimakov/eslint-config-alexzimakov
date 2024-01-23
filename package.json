@@ -25,6 +25,6 @@
   "homepage": "https://github.com/alexzimakov/eslint-config-alexzimakov#readme",
   "peerDependencies": {
     "eslint": "^8.56.0",
-    "@stylistic/eslint-plugin": "^1.54.0"
+    "@stylistic/eslint-plugin": "^1.5.4"
   }
 }
