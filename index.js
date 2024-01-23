@@ -1,7 +1,6 @@
 module.exports = {
   extends: ['eslint:recommended'],
   plugins: ['@stylistic'],
-
   rules: {
     //--------------------------------------------------------
     // Possible Problems
