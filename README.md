@@ -1,5 +1,5 @@
 # eslint-config-alexzimakov
-ESLint config for my projects.
+ESLint rules for my JavaScript projects.
 
 ## Install
 
@@ -11,6 +11,6 @@ Add this to your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@alexzimakov/eslint-config"
+  "extends": ["@alexzimakov/eslint-config"]
 }
 ```
