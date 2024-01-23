@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/alexzimakov/eslint-config-alexzimakov#readme",
   "peerDependencies": {
-    "eslint": "8.56.0",
-    "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-jsx-a11y": "6.8.0",
-    "@stylistic/eslint-plugin": "1.5.4",
-    "@typescript-eslint/parser": "6.19.1",
-    "@typescript-eslint/eslint-plugin": "6.19.1"
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "@stylistic/eslint-plugin": "^1.5.4",
+    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/eslint-plugin": "^6.19.1"
   }
 }
